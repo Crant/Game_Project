@@ -1,0 +1,26 @@
+#pragma once
+
+static const float V_WALK_SPEED		= 3.25f;
+static const float V_RUN_SPEED		= 5.36f;
+static const float V_CROUCH_SPEED	= 0.5f;
+
+/*! Animation states*/
+static const enum PlayerState
+{
+	STATE_IDLE,
+	STATE_WALKING,
+	STATE_RUNNING,
+	STATE_CROUCHING,
+	STATE_ATTACK_P,
+	STATE_ATTACK_S,
+	STATE_EQUIP_WEAPON,
+	STATE_UNEQUIP_WEAPON,
+	STATE_IDLE_WEAPON,
+	STATE_CRAFTING,
+	STATE_USE,
+	STATE_DRAW_BOW,
+	STATE_FILLING_BOTTLE,
+	STATE_EAT,
+	STATE_DEAD,
+	STATE_NONE
+};

@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{1dde2059-b526-431b-a964-bc8a5f289ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics">
+      <UniqueIdentifier>{c1cbe427-4547-406f-b7e2-e8dd52c7f9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{ac0db977-4857-4b3e-bffd-f8d23bb19406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Actors">
+      <UniqueIdentifier>{50a47ee4-51e7-49bf-b61f-129906fa7671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Handlers">
+      <UniqueIdentifier>{2d91f24d-3e37-49b2-80e5-94f5c85ed464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Actors\Behavior">
+      <UniqueIdentifier>{89d052e5-f5c9-4937-bc7c-e0d8f27606de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Events">
+      <UniqueIdentifier>{a080a8bb-9dd2-451f-8cdb-12448dab6d61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\PhysicsEngine\Physics.cpp">
+      <Filter>Source\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysicsEngine\PhysicsEngine.cpp">
+      <Filter>Source\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysicsEngine\PhysicsObject.cpp">
+      <Filter>Source\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysicsEngine\ObjLoader.cpp">
+      <Filter>Source\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Host.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ServerEngine.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AI.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ClientData.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ServerEngineWrapper.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimalActor.cpp">
+      <Filter>Source\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BearActor.cpp">
+      <Filter>Source\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BioActor.cpp">
+      <Filter>Source\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DeerActor.cpp">
+      <Filter>Source\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GhostActor.cpp">
+      <Filter>Source\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerActor.cpp">
+      <Filter>Source\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WolfActor.cpp">
+      <Filter>Source\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Actor.cpp">
+      <Filter>Source\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerBehavior.cpp">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerWolfBehavior.cpp">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Behavior.cpp">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerDeerBehavior.cpp">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AIDeerBehavior.cpp">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ActorSynchronizer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameModeFFA.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ProjectileActor.cpp">
+      <Filter>Source\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WorldActor.cpp">
+      <Filter>Source\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ActorManager.cpp">
+      <Filter>Source\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerHumanBehavior.cpp">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ItemActor.cpp">
+      <Filter>Source\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerGhostBehavior.cpp">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysicsEngine\ObjectDataResource.cpp">
+      <Filter>Source\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysicsEngine\PhysicsResourceManager.cpp">
+      <Filter>Source\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ProjectileArrowBehavior.cpp">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameModeTest.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AIBehavior.cpp">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AIBearBehavior.cpp">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerBearBehavior.cpp">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SupplyDrop.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SupplyActor.cpp">
+      <Filter>Source\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CraftingManager.cpp">
+      <Filter>Source\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SoundHandler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MaterialSpawnSet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MaterialSpawnManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MaloWPerformance.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SupplyDropBehavior.cpp">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BehaviorManager.cpp">
+      <Filter>Source\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BerryBushActor.cpp">
+      <Filter>Source\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BerryBushSpawner.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FootStepServer.cpp">
+      <Filter>Source\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimationManager.cpp">
+      <Filter>Source\Handlers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\PhysicsEngine\Physics.h">
+      <Filter>Source\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysicsEngine\PhysicsEngine.h">
+      <Filter>Source\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysicsEngine\PhysicsObject.h">
+      <Filter>Source\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysicsEngine\BoundingSphere.h">
+      <Filter>Source\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysicsEngine\ObjLoader.h">
+      <Filter>Source\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Host.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ServerEngine.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AI.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ClientData.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ServerEngineWrapper.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameMode.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimalActor.h">
+      <Filter>Source\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BearActor.h">
+      <Filter>Source\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BioActor.h">
+      <Filter>Source\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DeerActor.h">
+      <Filter>Source\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GhostActor.h">
+      <Filter>Source\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerActor.h">
+      <Filter>Source\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WolfActor.h">
+      <Filter>Source\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actor.h">
+      <Filter>Source\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AIDeerBehavior.h">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerWolfBehavior.h">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerBehavior.h">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Behavior.h">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerDeerBehavior.h">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ActorSynchronizer.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ProjectileActor.h">
+      <Filter>Source\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WorldActor.h">
+      <Filter>Source\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Damage.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ActorManager.h">
+      <Filter>Source\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerHumanBehavior.h">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerGhostBehavior.h">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ItemActor.h">
+      <Filter>Source\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysicsEngine\ObjectDataResource.h">
+      <Filter>Source\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysicsEngine\PhysicsResourceManager.h">
+      <Filter>Source\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysicsEngine\ReferenceCounted.h">
+      <Filter>Source\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ProjectileArrowBehavior.h">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameModeFFA.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameModeTest.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AIBehavior.h">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AIBearBehavior.h">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerBearBehavior.h">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SupplyDrop.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SupplyActor.h">
+      <Filter>Source\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CraftingManager.h">
+      <Filter>Source\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundHandler.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerEvent.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameEvents.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ActorEvent.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MaterialSpawnSet.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MaterialSpawnManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MaloWPerformance.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SupplyDropBehavior.h">
+      <Filter>Source\Actors\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BehaviorManager.h">
+      <Filter>Source\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BerryBushActor.h">
+      <Filter>Source\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BerryBushSpawner.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FootStepServer.h">
+      <Filter>Source\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimationManager.h">
+      <Filter>Source\Handlers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

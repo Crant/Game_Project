@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="GameIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NotDeadYet.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{806d0d13-1ed1-4b54-bf8a-ebaeffd33cc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GUI">
+      <UniqueIdentifier>{4a2744ba-27a8-44a6-936a-634aa6adb8a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sound">
+      <UniqueIdentifier>{8a869818-779d-4111-b767-e9d7ab5654c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\KeyUtil">
+      <UniqueIdentifier>{6018b1dc-988e-4e62-b593-0e280273fa9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Actors">
+      <UniqueIdentifier>{c7831163-bdbb-467e-9176-9ee7fbcb7646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GUI\Events">
+      <UniqueIdentifier>{ff6b4179-7f8a-479f-938e-9cb49c14f9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PlayerConfig">
+      <UniqueIdentifier>{ffa11063-3665-40a6-8f55-2bc52c1fd8f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Client.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ClientItemHandler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ClientObjectHandler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GuiManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainMenu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KeyUtil\KeyConverter.cpp">
+      <Filter>Source\KeyUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KeyUtil\KeyHandler.cpp">
+      <Filter>Source\KeyUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KeyUtil\KeyBindConfig.cpp">
+      <Filter>Source\KeyUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KeyUtil\Keybinds.cpp">
+      <Filter>Source\KeyUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\CircularListGui.cpp">
+      <Filter>Source\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\Element.cpp">
+      <Filter>Source\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\GuiElement.cpp">
+      <Filter>Source\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\GUIPicture.cpp">
+      <Filter>Source\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\GUISet.cpp">
+      <Filter>Source\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\InventoryGui.cpp">
+      <Filter>Source\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\InventorySlotGui.cpp">
+      <Filter>Source\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\SimpleButton.cpp">
+      <Filter>Source\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\TextBox.cpp">
+      <Filter>Source\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ClientActorManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\DropDownList.cpp">
+      <Filter>Source\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\CheckBox.cpp">
+      <Filter>Source\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\ChangeOptionEvent.cpp">
+      <Filter>Source\GUI\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\ChangeResEvent.cpp">
+      <Filter>Source\GUI\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\ChangeSetEvent.cpp">
+      <Filter>Source\GUI\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\ChangeTextAndMenuEvent.cpp">
+      <Filter>Source\GUI\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\GUIEvent.cpp">
+      <Filter>Source\GUI\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\NoEvent.cpp">
+      <Filter>Source\GUI\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\ApplyOptionsAndChangeSetEvent.cpp">
+      <Filter>Source\GUI\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InGameMenu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PickAnimalMenu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerConfig\UserDataConfig.cpp">
+      <Filter>Source\PlayerConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerConfig\PlayerSettings.cpp">
+      <Filter>Source\PlayerConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SoundEngine\EventHandle.cpp">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SoundEngine\AudioManager.cpp">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\LootInventoryGui.cpp">
+      <Filter>Source\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\CraftingMenu.cpp">
+      <Filter>Source\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\RecipeNoteGui.cpp">
+      <Filter>Source\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MaloWPerformance.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SoundEngine\Sound.cpp">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\InGameGui.cpp">
+      <Filter>Source\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\AbilityIndicatorUi.cpp">
+      <Filter>Source\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FootStepClient.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Actor.cpp">
+      <Filter>Source\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CreditsMenu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CamRecording.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TCBSpline.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Client.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GuiManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainMenu.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\KeyUtil\Keybinds.h">
+      <Filter>Source\KeyUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\KeyUtil\KeyConverter.h">
+      <Filter>Source\KeyUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\KeyUtil\KeyHandler.h">
+      <Filter>Source\KeyUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\KeyUtil\KeyBindConfig.h">
+      <Filter>Source\KeyUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\CircularListGui.h">
+      <Filter>Source\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\Element.h">
+      <Filter>Source\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\GuiElement.h">
+      <Filter>Source\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\GUIPicture.h">
+      <Filter>Source\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\GUISet.h">
+      <Filter>Source\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\InventoryGui.h">
+      <Filter>Source\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\InventorySlotGui.h">
+      <Filter>Source\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\SimpleButton.h">
+      <Filter>Source\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\TextBox.h">
+      <Filter>Source\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actor.h">
+      <Filter>Source\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ClientActorManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\DropDownList.h">
+      <Filter>Source\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\CheckBox.h">
+      <Filter>Source\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\ChangeOptionEvent.h">
+      <Filter>Source\GUI\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\ChangeResEvent.h">
+      <Filter>Source\GUI\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\ChangeSetEvent.h">
+      <Filter>Source\GUI\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\ChangeTextAndMenuEvent.h">
+      <Filter>Source\GUI\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\GUIEvent.h">
+      <Filter>Source\GUI\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\NoEvent.h">
+      <Filter>Source\GUI\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\ApplyOptionsAndChangeSetEvent.h">
+      <Filter>Source\GUI\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InGameMenu.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PickAnimalMenu.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerConfig\UserDataConfig.h">
+      <Filter>Source\PlayerConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerConfig\PlayerSettings.h">
+      <Filter>Source\PlayerConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundEngine\EventHandle.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundEngine\IAudioEvents.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundEngine\IAudioLoader.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundEngine\IAudioManager.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundEngine\IAudioMusic.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundEngine\IEventHandle.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundEngine\AudioManager.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\LootInventoryGui.h">
+      <Filter>Source\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\CraftingMenu.h">
+      <Filter>Source\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\RecipeNoteGui.h">
+      <Filter>Source\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MaloWPerformance.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundEngine\Sound.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\InGameGui.h">
+      <Filter>Source\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\AbilityIndicatorUi.h">
+      <Filter>Source\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FootStepClient.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CreditsMenu.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CamRecording.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TCBSpline.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

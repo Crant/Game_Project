@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Actor.cpp" />
+    <ClCompile Include="Source\ActorManager.cpp" />
+    <ClCompile Include="Source\ActorSynchronizer.cpp" />
+    <ClCompile Include="Source\AI.cpp" />
+    <ClCompile Include="Source\AIBehavior.cpp" />
+    <ClCompile Include="Source\AIDeerBehavior.cpp" />
+    <ClCompile Include="Source\AIBearBehavior.cpp" />
+    <ClCompile Include="Source\AnimalActor.cpp" />
+    <ClCompile Include="Source\AnimationManager.cpp" />
+    <ClCompile Include="Source\BearActor.cpp" />
+    <ClCompile Include="Source\Behavior.cpp" />
+    <ClCompile Include="Source\BehaviorManager.cpp" />
+    <ClCompile Include="Source\BerryBushActor.cpp" />
+    <ClCompile Include="Source\BerryBushSpawner.cpp" />
+    <ClCompile Include="Source\BioActor.cpp" />
+    <ClCompile Include="Source\ClientData.cpp" />
+    <ClCompile Include="Source\CraftingManager.cpp" />
+    <ClCompile Include="Source\DeerActor.cpp" />
+    <ClCompile Include="Source\FootStepServer.cpp" />
+    <ClCompile Include="Source\Game.cpp" />
+    <ClCompile Include="Source\GameModeFFA.cpp" />
+    <ClCompile Include="Source\GameModeTest.cpp" />
+    <ClCompile Include="Source\GhostActor.cpp" />
+    <ClCompile Include="Source\MaloWPerformance.cpp" />
+    <ClCompile Include="Source\MaterialSpawnManager.cpp" />
+    <ClCompile Include="Source\MaterialSpawnSet.cpp" />
+    <ClCompile Include="Source\PhysicsEngine\ObjectDataResource.cpp" />
+    <ClCompile Include="Source\PhysicsEngine\PhysicsResourceManager.cpp" />
+    <ClCompile Include="Source\PlayerBearBehavior.cpp" />
+    <ClCompile Include="Source\PlayerGhostBehavior.cpp" />
+    <ClCompile Include="Source\Host.cpp" />
+    <ClCompile Include="Source\ItemActor.cpp" />
+    <ClCompile Include="Source\PhysicsEngine\ObjLoader.cpp" />
+    <ClCompile Include="Source\PhysicsEngine\Physics.cpp" />
+    <ClCompile Include="Source\PhysicsEngine\PhysicsEngine.cpp" />
+    <ClCompile Include="Source\PhysicsEngine\PhysicsObject.cpp" />
+    <ClCompile Include="Source\Player.cpp" />
+    <ClCompile Include="Source\PlayerActor.cpp" />
+    <ClCompile Include="Source\PlayerBehavior.cpp" />
+    <ClCompile Include="Source\PlayerDeerBehavior.cpp" />
+    <ClCompile Include="Source\PlayerHumanBehavior.cpp" />
+    <ClCompile Include="Source\PlayerWolfBehavior.cpp" />
+    <ClCompile Include="Source\ProjectileActor.cpp" />
+    <ClCompile Include="Source\ProjectileArrowBehavior.cpp" />
+    <ClCompile Include="Source\ServerEngine.cpp" />
+    <ClCompile Include="Source\ServerEngineWrapper.cpp" />
+    <ClCompile Include="Source\SoundHandler.cpp" />
+    <ClCompile Include="Source\SupplyActor.cpp" />
+    <ClCompile Include="Source\SupplyDrop.cpp" />
+    <ClCompile Include="Source\SupplyDropBehavior.cpp" />
+    <ClCompile Include="Source\WolfActor.cpp" />
+    <ClCompile Include="Source\WorldActor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\ServerEngineWrapper.h" />
+    <ClInclude Include="Source\Actor.h" />
+    <ClInclude Include="Source\ActorEvent.h" />
+    <ClInclude Include="Source\ActorManager.h" />
+    <ClInclude Include="Source\ActorSynchronizer.h" />
+    <ClInclude Include="Source\AI.h" />
+    <ClInclude Include="Source\AIBehavior.h" />
+    <ClInclude Include="Source\AIDeerBehavior.h" />
+    <ClInclude Include="Source\AIBearBehavior.h" />
+    <ClInclude Include="Source\AnimalActor.h" />
+    <ClInclude Include="Source\AnimationManager.h" />
+    <ClInclude Include="Source\BearActor.h" />
+    <ClInclude Include="Source\Behavior.h" />
+    <ClInclude Include="Source\BehaviorManager.h" />
+    <ClInclude Include="Source\BerryBushActor.h" />
+    <ClInclude Include="Source\BerryBushSpawner.h" />
+    <ClInclude Include="Source\BioActor.h" />
+    <ClInclude Include="Source\ClientData.h" />
+    <ClInclude Include="Source\CraftingManager.h" />
+    <ClInclude Include="Source\Damage.h" />
+    <ClInclude Include="Source\DeerActor.h" />
+    <ClInclude Include="Source\FootStepServer.h" />
+    <ClInclude Include="Source\Game.h" />
+    <ClInclude Include="Source\GameEvents.h" />
+    <ClInclude Include="Source\GameMode.h" />
+    <ClInclude Include="Source\GameModeFFA.h" />
+    <ClInclude Include="Source\GameModeTest.h" />
+    <ClInclude Include="Source\GhostActor.h" />
+    <ClInclude Include="Source\MaloWPerformance.h" />
+    <ClInclude Include="Source\MaterialSpawnManager.h" />
+    <ClInclude Include="Source\MaterialSpawnSet.h" />
+    <ClInclude Include="Source\PhysicsEngine\ObjectDataResource.h" />
+    <ClInclude Include="Source\PhysicsEngine\PhysicsResourceManager.h" />
+    <ClInclude Include="Source\PhysicsEngine\ReferenceCounted.h" />
+    <ClInclude Include="Source\PlayerBearBehavior.h" />
+    <ClInclude Include="Source\PlayerEvent.h" />
+    <ClInclude Include="Source\PlayerGhostBehavior.h" />
+    <ClInclude Include="Source\Host.h" />
+    <ClInclude Include="Source\ItemActor.h" />
+    <ClInclude Include="Source\PhysicsEngine\BoundingSphere.h" />
+    <ClInclude Include="Source\PhysicsEngine\ObjLoader.h" />
+    <ClInclude Include="Source\PhysicsEngine\Physics.h" />
+    <ClInclude Include="Source\PhysicsEngine\PhysicsEngine.h" />
+    <ClInclude Include="Source\PhysicsEngine\PhysicsObject.h" />
+    <ClInclude Include="Source\Player.h" />
+    <ClInclude Include="Source\PlayerActor.h" />
+    <ClInclude Include="Source\PlayerBehavior.h" />
+    <ClInclude Include="Source\PlayerDeerBehavior.h" />
+    <ClInclude Include="Source\PlayerHumanBehavior.h" />
+    <ClInclude Include="Source\PlayerWolfBehavior.h" />
+    <ClInclude Include="Source\ProjectileActor.h" />
+    <ClInclude Include="Source\ProjectileArrowBehavior.h" />
+    <ClInclude Include="Source\ServerEngine.h" />
+    <ClInclude Include="Source\SoundHandler.h" />
+    <ClInclude Include="Source\SupplyActor.h" />
+    <ClInclude Include="Source\SupplyDrop.h" />
+    <ClInclude Include="Source\SupplyDropBehavior.h" />
+    <ClInclude Include="Source\WolfActor.h" />
+    <ClInclude Include="Source\WorldActor.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FF26E365-FE3C-4224-B691-A4EE74CA0782}</ProjectGuid>
+    <RootNamespace>Server</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)\..\Bin\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)\$(Configuration)\</IntDir>
+    <IncludePath>$(SolutionDir)\External\VLD\include\;$(SolutionDir)\Malow\Include\;$(SolutionDir)\External\NDYGFX\Include\;$(SolutionDir)\Game\Include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\External\VLD\lib\Win32;$(SolutionDir)\Malow\Bin\Debug;$(SolutionDir)\Game\Bin\Debug;$(SolutionDir)\External\NDYGFX\Lib\;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)D</TargetName>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)..\Bin\x64\</OutDir>
+    <IntDir>$(SolutionDir)..\Obj\x64\$(ProjectName)\$(Configuration)\</IntDir>
+    <LibraryPath>$(SolutionDir)..\..\External\VLD\lib\Win64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)..\..\External\VLD\include\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(ProjectDir)\..\Bin\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)\$(Configuration)\</IntDir>
+    <IncludePath>$(SolutionDir)\External\VLD\include\;$(SolutionDir)\Malow\Include\;$(SolutionDir)\External\NDYGFX\Include\;$(SolutionDir)\Game\Include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\External\VLD\lib\Win32;$(SolutionDir)\Malow\Bin\Release;$(SolutionDir)\Game\Bin\Release;$(SolutionDir)\External\NDYGFX\Lib\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;CCLI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Source\PhysicsEngine;$(ProjectDir)\Source\WorldFiles;$(ProjectDir)\Include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>MalowD.lib;GameD.lib;NDYGFXD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Server\EngineFiles\Network;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Source\PhysicsEngine;$(ProjectDir)\Source\WorldFiles;$(ProjectDir)\Include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Malow.lib;Game.lib;NDYGFX.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
